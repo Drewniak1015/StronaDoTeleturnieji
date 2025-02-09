@@ -1,8 +1,5 @@
-
 const TIle = () => {
-  return (
-    <div>TIle</div>
-  )
-}
+  return <div>TIle</div>;
+};
 
-export default TIle
+export default TIle;

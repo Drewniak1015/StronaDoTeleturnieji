@@ -2,13 +2,16 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Drewniak1015.github.io/StronaDoTeleturnieji",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.5",
