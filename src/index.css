@@ -1,0 +1,11 @@
+@import "tailwindcss";
+* {
+  font-family: "Luckiest Guy", serif;
+}
+@theme {
+  --color-gold: #ffd700;
+  --color-crimson: #c70039;
+  --color-deepblue: #00008b;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
